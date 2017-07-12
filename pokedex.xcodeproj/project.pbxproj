@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393616E31F16373000A9CEAA /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 393616E21F16372F00A9CEAA /* pokemon.csv */; };
 		39F3C7551F14E6E6007E5743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3C7541F14E6E6007E5743 /* AppDelegate.swift */; };
 		39F3C7571F14E6E6007E5743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3C7561F14E6E6007E5743 /* ViewController.swift */; };
 		39F3C75A1F14E6E6007E5743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F3C7581F14E6E6007E5743 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		393616E21F16372F00A9CEAA /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "../../../pokeapi-master/data/v1/pokemon.csv"; sourceTree = "<group>"; };
 		39F3C7511F14E6E6007E5743 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F3C7541F14E6E6007E5743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39F3C7561F14E6E6007E5743 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				39F3C7541F14E6E6007E5743 /* AppDelegate.swift */,
+				393616E21F16372F00A9CEAA /* pokemon.csv */,
 				39F3C7561F14E6E6007E5743 /* ViewController.swift */,
 				39F3C7581F14E6E6007E5743 /* Main.storyboard */,
 				39F3C75B1F14E6E6007E5743 /* Assets.xcassets */,
@@ -124,6 +127,7 @@
 			files = (
 				39F3C75F1F14E6E6007E5743 /* LaunchScreen.storyboard in Resources */,
 				39F3C75C1F14E6E6007E5743 /* Assets.xcassets in Resources */,
+				393616E31F16373000A9CEAA /* pokemon.csv in Resources */,
 				39F3C75A1F14E6E6007E5743 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +316,7 @@
 				39F3C7651F14E6E6007E5743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
